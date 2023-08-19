@@ -111,7 +111,7 @@ parser.add_argument('--seq_out_len',type=int,default=1,help='output sequence len
 parser.add_argument('--horizon', type=int, default=3)
 parser.add_argument('--layers',type=int,default=1,help='number of layers')
 
-parser.add_argument('--batch_size',type=int,default=32,help='batch size')
+parser.add_argument('--batch_size',type=int,default=4,help='batch size')
 parser.add_argument('--lr',type=float,default=0.0001,help='learning rate')
 parser.add_argument('--weight_decay',type=float,default=0.00001,help='weight decay rate')
 
